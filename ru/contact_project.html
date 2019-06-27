@@ -9,7 +9,8 @@
 		<link media="all" href="css/font.css" type="text/css" rel="stylesheet"/>
 		<link rel="stylesheet" media="screen" type="text/css" href="../css/topmenu.css"/>
 		<link rel="stylesheet" media="screen" type="text/css" href="../css/langswitcher.css"/>
-		
+		<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
+		<script src="../jquery16/jquery.min.js"></script>			
 	</head>
 	<body style="background:url('../images/backgroungs/2.png');	background-position:bottom top;font-family: 'Lucida Grande',Geneva,Arial,Verdana,sans-serif;" >
 
@@ -178,25 +179,25 @@ textarea {
 
 		<div style="overflow:hidden;margin:20px;">
         
-             <h1 style="font-family: Cambria;">Р‘РµСЃРїР»Р°С‚РЅР°СЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ РїРѕ РїСЂРѕРµРєС‚Сѓ</h1>
+             <h1 style="font-family: Cambria;">Бесплатная консультация по проекту</h1>
                
              <br/>  
                     
              <p style="font:14px/1.8em Arial,Helvetica,sans-serif;">
-             	Р‘РѕР»СЊС€РёРЅСЃС‚РІРѕ РјРѕРёС… РєР»РёРµРЅС‚РѕРІ РѕР±СЂР°С‰Р°СЋС‚СЃСЏ РєРѕ РјРЅРµ РёРјРµСЏ С…РѕСЂРѕС€СѓСЋ РёРґРµСЋ РЅР°СЃС‡РµС‚ С‚РѕРіРѕ С‡С‚Рѕ РёРј РЅСѓР¶РЅРѕ СЂР°Р·СЂР°Р±РѕС‚Р°С‚СЊ Рё РїРѕС‡РµРјСѓ РёРј РЅСѓР¶РЅРѕ СЌС‚Рѕ, РЅРѕ РЅРµ Р·РЅР°СЋС‚ СЃ С‡РµРіРѕ РЅР°С‡Р°С‚СЊ.
-             	РќРµ Р±РµСЃРїРѕРєРѕР№С‚РµСЃСЊ, СЌС‚Рѕ РЅРѕСЂРјР°Р»СЊРЅРѕ Рё СЏ СЃ СѓРґРѕРІРѕР»СЊСЃС‚РІРёРµРј СЂР°СЃСЃРєР°Р¶Сѓ Р’Р°Рј РІРµСЃСЊ РїСЂРѕС†РµСЃСЃ Рё С‡С‚Рѕ РјРѕР¶РµС‚ Р±С‹С‚СЊ СЂРµР°Р»РёР·РѕРІР°РЅРѕ РІ СЂР°РјРєР°С… Р’Р°С€РµРіРѕ Р±СЋРґР¶РµС‚Р° 
-             	Рё РєР°Рє РјРЅРѕРіРѕ РІСЂРµРјРµРЅРё СЌС‚Рѕ Р·Р°Р№РјРµС‚.
+             	Большинство моих клиентов обращаются ко мне имея хорошую идею насчет того что им нужно разработать и почему им нужно это, но не знают с чего начать.
+             	Не беспокойтесь, это нормально и я с удовольствием расскажу Вам весь процесс и что может быть реализовано в рамках Вашего бюджета 
+             	и как много времени это займет.
              </p>
              <br/>
              <p style="font:14px/1.8em Arial,Helvetica,sans-serif;">
-             	РџРѕР¶Р°Р»СѓР№СЃС‚Р°, Р·Р°РїРѕР»РЅРёС‚Рµ СЌС‚Сѓ РЅРµР±РѕР»СЊС€СѓСЋ С„РѕСЂРјСѓ Рё РѕРїРёС€РёС‚Рµ РІ РѕР±С‰РёС… С‡РµСЂС‚Р°С… Р’Р°С€ РїСЂРѕРµРєС‚ Рё СЏ РїСЂРѕРєРѕРЅСЃСѓР»СЊС‚РёСЂСѓСЋ Р’Р°СЃ.  
+             	Пожалуйста, заполните эту небольшую форму и опишите в общих чертах Ваш проект и я проконсультирую Вас.  
              </p>
 
 		<div id="contactdata" style="margin:20px;">
                     
         <div class="kontaktformular" style="margin:20px;float:left;width:80%;">
 
-			<form id="form-contact"  action="contact_project_submit.jsp" class="customForm" method="post">
+			<form id="form-contact"  action="https://docs.google.com/forms/d/e/1FAIpQLSejgqvqmP8uuG1uCYUC5l9UNk6dl654dqHYa_F3F5WY9SWEQA/formResponse?" class="customForm" method="post">
 				<input type="hidden" name="RequiredFields" value="Anrede#Title,Name#Name,email#E-mail address,Nachricht#Message"/>
 			  
 			  	<table class="form" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -206,11 +207,11 @@ textarea {
 					    	<table border="0" cellpadding="0" cellspacing="0">
 					        	<tr style="color: #565656;font-family: Arial,Sans-serif,Helvetica;font-size: 0.75em;">
 					          		<td>
-					          			<input type="radio" class="radio" name="sex" value="Mr" style="border:0; background:0;" checked="checked"/>
+					          			<input type="radio" class="radio" name="entry.215105256" id="entry.215105256" value="Mr" style="border:0; background:0;" checked="checked"/>
 					          		</td>
 					          		<td>&nbsp;Mr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 					          		<td>
-					          			<input type="radio" class="radio" name="sex" value="Ms" style="border:0; background:0;"/>
+					          			<input type="radio" class="radio" name="entry.215105256" id="entry.215105256" value="Ms" style="border:0; background:0;"/>
 					          		</td>
 					          		<td>&nbsp;Ms</td>
 					        	</tr>
@@ -218,32 +219,32 @@ textarea {
 						</td>
 			  		</tr>
 					 <tr style="color: #565656;font-family: Arial,Sans-serif,Helvetica;font-size: 0.75em;"> 
-					      <td height="30" style="vertical-align:middle">Р�РјСЏ: <span style="color:#00a5e1">*</span></td>
-					      <td style="vertical-align:middle"><input type="text" name="name" class="textfeld required" value=""/>
+					      <td height="30" style="vertical-align:middle">Имя: <span style="color:#00a5e1">*</span></td>
+					      <td style="vertical-align:middle"><input type="text" name="entry.1539748077" id="entry.1539748077" class="textfeld required" value=""/>
 					    </td>
 					  </tr>
 					  <tr style="color: #565656;font-family: Arial,Sans-serif,Helvetica;font-size: 0.75em;"> 
-					      <td height="30" style="vertical-align:middle">РљРѕРјРїР°РЅРёСЏ:</td>
-					      <td style="vertical-align:middle"><input type="text" name="company" class="textfeld" value=""/></td>
+					      <td height="30" style="vertical-align:middle">Компания:</td>
+					      <td style="vertical-align:middle"><input type="text" name="entry.2089694982" id="entry.2089694982" class="textfeld" value=""/></td>
 					  </tr>
 					  <tr style="color: #565656;font-family: Arial,Sans-serif,Helvetica;font-size: 0.75em;"> 
 					      <td height="30" style="vertical-align:middle">E-mail: <span style="color:#00a5e1">*</span></td>
-					      <td style="vertical-align:middle"><input type="text" name="email" class="textfeld required email" value=""/>
+					      <td style="vertical-align:middle"><input type="text" name="entry.2084358838" id="entry.2084358838"  class="textfeld required email" value=""/>
 					    </td>
 					  </tr>
 					  <tr style="color: #565656;font-family: Arial,Sans-serif,Helvetica;font-size: 0.75em;"> 
-					      <td height="30" style="vertical-align:middle">РўРµР»РµС„РѕРЅ:</td>
-					      <td style="vertical-align:middle"><input type="text" name="phone" class="textfeld" value=""/></td>
+					      <td height="30" style="vertical-align:middle">Телефон:</td>
+					      <td style="vertical-align:middle"><input type="text" name="entry.1672738241" id="entry.1672738241" class="textfeld" value=""/></td>
 					  </tr>
 					  
 					 <tr style="color: #565656;font-family: Arial,Sans-serif,Helvetica;font-size: 0.75em;"> 
-					      <td height="30" valign="top"><div style="margin:4px 0 0 0">РљРѕРіРґР° Р’С‹ РїР»Р°РЅРёСЂСѓРµС‚Рµ РЅР°С‡Р°Р»Рѕ СЂР°Р±РѕС‚?: <span style="color:#00a5e1">*</span></div></td>
-					      <td valign="top"><div style="margin:4px 0 0 0"><input type="text" name="start_date" class="textfeld required" value=""/></div></td>
+					      <td height="30" valign="top"><div style="margin:4px 0 0 0">Когда Вы планируете начало работ?: <span style="color:#00a5e1">*</span></div></td>
+					      <td valign="top"><div style="margin:4px 0 0 0"><input type="text" name="entry.22428767" id="entry.22428767" class="textfeld required" value=""/></div></td>
 					  </tr>
 					  
 					 <tr style="color: #565656;font-family: Arial,Sans-serif,Helvetica;font-size: 0.75em;"> 
-					      <td height="118" valign="top"><div style="margin:4px 0 0 0">РћРїРёСЃР°РЅРёРµ РїСЂРѕРµРєС‚Р°: <span style="color:#00a5e1">*</span></div></td>
-					      <td valign="top"><div style="margin:4px 0 0 0"><textarea name="message" maxlength="500" class="textarea required" cols="27" rows="8" style="float:left;"></textarea></div></td>
+					      <td height="118" valign="top"><div style="margin:4px 0 0 0">Описание проекта: <span style="color:#00a5e1">*</span></div></td>
+					      <td valign="top"><div style="margin:4px 0 0 0"><textarea name="entry.1864134205" id="entry.1864134205" maxlength="500" class="textarea required" cols="27" rows="8" style="float:left;"></textarea></div></td>
 					  </tr>
 					  <!-- tr style="color: #565656;font-family: Arial,Sans-serif,Helvetica;font-size: 0.75em;">
 					    <td height="20">Captcha: <span style="color:#00a5e1">*</span></td>
@@ -266,15 +267,27 @@ textarea {
 					        	<table border="0" cellpadding="0" cellspacing="0" width="310">
 					    			<tr style="color: #565656;font-family: Arial,Sans-serif,Helvetica;font-size: 0.75em;">
 					      				<td>
-					      					<input  id="btn-submit" type="submit" class="submit" value="РћС‚РѕСЃР»Р°С‚СЊ" onfocus="this.blur();" name="Submit"/>
+					      					<input  id="btn-submit" type="submit" class="submit" value="Отослать" onfocus="this.blur();" name="Submit"/>
 					      				</td>
-					      				<td align="right"><span style="color:#00a5e1">* РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Рµ РїРѕР»СЏ</span></td>
+					      				<td align="right"><span style="color:#00a5e1">* обязательные поля</span></td>
 					    			</tr>
 			    				</table>
 			    			</td>
 			  		  </tr>
 			  	  </table>
 			</form>
+						<!-- <script type="text/javascript">var submitted=false;</script> -->
+			<script type="text/javascript">
+			$('#form-contact').on('submit', function(e) {
+			  $('#form-contact *').fadeOut(2000);
+			  $('#form-contact').prepend('Your submission has been processed...');
+			  });
+			</script>
+			<div class="success" id="hidden_iframe"  style="display:none;">
+				<p style="font:14px/1.8em Arial,Helvetica,sans-serif;">
+					Спасибо за Ваше сообщение! Я вскоре Вам отвечу.
+				</p>	
+			</div>
 		</div>
 		
 			<!-- div id="mycontacts">
@@ -298,12 +311,11 @@ textarea {
 			</div>
         </div>                  
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
     
-	var $loading = $('<div class="loading"><img src="/media/images/loading.gif" alt="" /></div>');
+	var $loading = $('<div class="loading"></div>');
     
     $(".default").each(function(){
         var defaultVal = $(this).attr('title');
@@ -331,17 +343,18 @@ jQuery(document).ready(function($) {
             var inputVal = $(this).val();
             var $parentTag = $(this).parent();
             if(inputVal == ''){
-                $parentTag.addClass('error').append('<span class="error">РѕР±СЏР·Р°С‚РµР»СЊРЅРѕРµ РїРѕР»Рµ</span>');
+                $parentTag.addClass('error').append('<span class="error">обязательное поле</span>');
             }
             if($(this).hasClass('email') == true){
                 if(!emailReg.test(inputVal)){
-                    $parentTag.addClass('error').append('<span class="error">РІРІРµРґРёС‚Рµ РїСЂР°РІРёР»СЊРЅС‹Р№ Р°РґСЂРµСЃ</span>');
+                    $parentTag.addClass('error').append('<span class="error">введите правильный адрес</span>');
                 }
             }
         });
         if ($('span.error').length == "0") {
             $formId.append($loading.clone());
             $('table',$formId).hide();
+            $( "#hidden_iframe" ).css( "display", "table" );
             $.post(formAction, $formId.serialize(),function(data){
                 $('.loading').remove();
                 $formId.append(data).fadeIn();
